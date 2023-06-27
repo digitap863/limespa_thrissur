@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Limespa Thrissur</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/fav.png">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/ilmosys-icon.css">
+    <link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+    <link rel="stylesheet" href="css/icons/style.css">
+    <link rel="stylesheet" href="css/icons/icon2/style.css">
+    <link rel="stylesheet" href="js/vendors/swipebox/css/swipebox.min.css">
+
+
+    <!-- THEME / PLUGIN CSS -->
+    <link rel="stylesheet" href="js/vendors/slick/slick.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <style>
+#imgspa img {
+    width:400px;
+    height:auto;
+}
+
+    </style>
+</head>
+
+<body id="page-top">
+
+    <div class="col-sm-5 col-md-7">
+        <div class="intro-form" id="join-us-form contact-form">
+                        <h4>Book Now !</h4>
+                        
+                        <div id="join-us-results"></div>
+                                 
+        <div class="form-group">
+          <input type="text" name="first_name" id="first_name" class="form-control f-input input-field" placeholder="First Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="last_name" id="last_name" class="form-control f-input input-field" placeholder="Last Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="user_email" class="form-control f-input input-field" placeholder="Email" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="phone_number" maxlength="15"  class="form-control f-input input-field" placeholder="Phone" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="website" class="form-control f-input input-field" placeholder="Message" />
+        </div>
+        <button type="submit" class="btn btn-block btn-lg btn-primary" id="submit_btn">Make an Appointment</button>
+
+        </div>
+                <div id="sendingMessage" class="statusMessage">
+                    <p><i class="fa fa-spin fa-cog"></i> Sending your message. Please wait...</p>
+                </div>
+
+                <div id="successMessage" class="successmessage">
+                    <p><span class="success-ico"></span> Thanks for sending your message! We'll get back to you shortly.</p>
+                </div>
+                <div id="failureMessage" class="errormessage">
+                    <p><span class="error-ico"></span> There was a problem sending your message. Please try again.</p>
+                </div>
+                <div id="incompleteMessage" class="statusMessage">
+                    <p><i class="fa fa-warning"></i> Please complete all the fields in the form before sending.</p>
+                </div>
+                        
+        </div>
+
+    <div class="body">
+        <!-- HEADER -->
+        <header>
+            <nav class="navbar-lg navbar-fixed-top">
+                <div class="container" style="padding-top: 20px;margin-bottom:20px;">
+                    <div class="navbar-header" style="float: none;">
+                        
+                        <center>  <img src="images/lplogo.png" width="180" alt="logo"></center>
+                        
+                    </div>
+
+              <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button> -->
+
+                 <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right navbar-contact">
+                            <li>
+                                <a href="tel:960-539-7777"><span class="icon-call"></span>96053 97777</a>
+                            </li>
+                        </ul>
+                       <ul class="nav navbar-nav navbar-right">
+
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#home">Home</a>
+                            </li>
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#features">Features</a>
+                            </li>
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#services">Services</a>
+                            </li>
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#reviews">Testimonials</a>
+                            </li>
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#contact-info">Contact</a>
+                            </li>
+
+
+                        </ul>
+                    </div> -->
+
+                </div>
+            </nav>
+        </header>
+
+        <!-- INTRO -->
+        <div id="home" class="intro intro1">
+            <div class="overlay" style="opacity: 0.2;"></div>
+            <div class="container">
+                <div class="row center-content">
+                    <div class="col-sm-10" align="center">
+                        <h2 style="font-family: 'Playfair Display', serif">Escape to Paradise<br>Dive into the Luxurious Heaven of <br>LIME SPA in Thrissur </h2>
+                        
+                       
+                    </div>
+                    <br><br>
+
+        <!--  <div class="col-sm-5 col-md-7">
+            <div class="intro-form" id="join-us-form contact-form">
+                            <h4>Book Now !</h4>
+                            
+                            <div id="join-us-results"></div>
+                                     
+		    <div class="form-group">
+              <input type="text" name="first_name" id="first_name" class="form-control f-input input-field" placeholder="First Name" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="last_name" id="last_name" class="form-control f-input input-field" placeholder="Last Name" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="email" class="form-control f-input input-field" placeholder="Email" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" maxlength="15"  class="form-control f-input input-field" placeholder="Phone" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="website" class="form-control f-input input-field" placeholder="website" />
+            </div>
+			<button type="submit" class="btn btn-block btn-lg btn-primary" id="submit_btn">Make an Appointment</button>
+
+            </div>
+					<div id="sendingMessage" class="statusMessage">
+						<p><i class="fa fa-spin fa-cog"></i> Sending your message. Please wait...</p>
+					</div>
+
+					<div id="successMessage" class="successmessage">
+						<p><span class="success-ico"></span> Thanks for sending your message! We'll get back to you shortly.</p>
+					</div>
+					<div id="failureMessage" class="errormessage">
+						<p><span class="error-ico"></span> There was a problem sending your message. Please try again.</p>
+					</div>
+					<div id="incompleteMessage" class="statusMessage">
+						<p><i class="fa fa-warning"></i> Please complete all the fields in the form before sending.</p>
+					</div>
+                            
+            </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <section class="showcase">
+            <div style="padding: 4px;">
+                <img src="images/services/flore element 1.svg" width="90px" style="transform: scaleX(-1);">
+                <img src="images/services/flore element 1.svg" width="90px" style="position: absolute;right:0">
+            </div>
+        <div id="features" class="container" style="margin-bottom: 70px;margin-top: 50px;">
+           
+
+            <div class="about-inline text-center" style="padding-bottom:100px;padding-top: 0;">
+                <div class="container">
+                    <center><img src="images/services/ayurveda.svg" width="45px"></center>
+
+                  <div class="row center-content"> 
+                    <div class="text-center">
+                    <h3 style="letter-spacing:1px;">AYURVEDIC SPA <br>Tranquility and Healing Combined</h3>
+                        <p style="font-family: 'Poppins', sans-serif;text-align:justify;">
+                        We offer a range of Ayurvedic massages & treatments to cater specifically for you!
+                        Our Ayurvedic massage center is truly a serene oasis where you can unwind the therapeutic benefits of ancient Ayurveda.
+                        Visit & explore the beneficial pampering:
+                        </p>
+
+                    </div>
+                  </div>
+                 
+                <div> 
+                   <!-- <p style="font-size:18px;text-align:justify;">Our extensive menu of services has something to offer everyone:</p> -->
+                    <ul class="list" style="text-align: justify;">
+                        <li><i class="icon-number"></i>&nbsp; Ayurvedic hair treatment, eye treatment or a full body massage</li>
+                        <li><i class="icon-number2"></i>&nbsp; From Abhyangam to foot massage and foot reflexology, we use traditional methods to stimulate your body's natural healing abilities</li>
+                        <li><i class="icon-number3"></i>&nbsp; A blissful head massage & the deeply relaxing Shirodhara treatment, Udwarthanam are known for its calming effect. </li>
+                        <li><i class="icon-number4"></i>&nbsp; Nasyam and Pizhichil treatment, among other therapies, address specific concerns and enhance your well-being.</li>
+                    </ul> 
+                </div>
+                
+                <div class="row center-content"> 
+                    <div class="text-center">
+                        <p style="font-family: 'Poppins', sans-serif;text-align:justify;">
+                        With our affordable prices and a team of experienced practitioners,
+                         Lime Spa is your go-to destination for authentic Ayurvedic treatments in Thrissur.
+                        </p>
+
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+            
+            <div class="services-s5 row" style="padding-bottom:50px;">
+                <div class="col-md-3">
+                    <div align="center">
+                        <div class="containerover">
+
+                            <img src="images/Group lime.png" alt="Avatar" class="image2">
+                                <div class="overlay1">
+                                <div class="textover"><a href="#">Hair Saloon</a></div>
+                                </div>
+                                
+                        </div> 
+                        <p><h4>Hair Saloon</h4></p>
+                      <!--  <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p> -->
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div align="center">
+                        <div class="containerover">
+
+                            <img src="images/Mask group1-1.png" alt="Avatar" class="image2">
+                                <div class="overlay1">
+                                <div class="textover"><a href="#">Facial Service</a></div>
+                                </div>
+                                
+                        </div> 
+                        <p><h4>Facial Service</h4></p>
+                      <!--  <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p> -->
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div align="center">
+                        <div class="containerover">
+
+                            <img src="images/20-SM124953.jpg" alt="Avatar" class="image2" style="height:198px">
+                                <div class="overlay1">
+                                <div class="textover"><a href="#">Vetiver Facial</a></div>
+                                </div>
+                                
+                        </div> 
+                        <p><h4>Vetiver Facial</h4></p>
+                      <!--  <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p> -->
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div align="center">
+                        <div class="containerover">
+
+                            <img src="images/Mask group-2.png" alt="Avatar" class="image2">
+                                <div class="overlay1">
+                                <div class="textover"><a href="#">Lime Spa Special</a></div>
+                                </div>
+                                
+                        </div> 
+                        <p><h4>Lime Spa Special</h4></p>
+                      <!--  <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p> -->
+                    </div>
+                </div><br>
+
+            </div>        
+            
+
+            <!-- Spa Retreat -->
+            <div class="about-inline text-center">
+                <div class="container">
+
+                    <center><img src="images/services/floral icon].svg" width="200px"></center>
+
+                    <div class="row center-content">
+                        
+                        <div class="col-md-7 text-center">
+                            
+                            <h3>Heavenly Spa Experience</h3>
+                            
+                            <p style="font-size:17px;font-family: 'Poppins', sans-serif;text-align:justify;padding:1.5px 5px;">Immerse yourself in our luxurious spa facilities, featuring state-of-the-art amenities,
+                            soothing aromas and tranquil music, creating the perfect ambiance for relaxation. Whether you are seeking stress relief, pain management, skin rejuvenation or simply a moment of pure relaxation,
+                            </p>
+                            <p style="font-size:17px;font-family: 'Poppins', sans-serif;text-align:justify;padding:1.5px 5px;">
+                                Lime spa will be your perfect destination. Discover a true sanctuary where you can escape the stresses of everyday life!
+                            </p>
+
+                        </div><br>
+
+                        <div class="col-md-4" style="margin-top:25px;padding: 0px 30px 0px 30px;" id="imgspa"> 
+                            <img src="images/18-SM869507.jpg" class="img-responsive" alt="" style="border-radius: 150px;">
+
+                            <div class="space30"></div>
+                        </div>
+
+                       <!-- <div class="col-md-8 text-center">
+                            <img src="images/services/1.jpg" class="img-responsive" alt="" style="border-radius: 10px;">
+                        </div> -->
+                        
+                    </div>
+                </div>
+            </div>
+
+            <center><img src="images/services/floral icon].svg" width="200px" style="transform: rotate(180deg);"></center>
+
+            <!--Beauty Saloon -->
+            <div class="about-inline text-center" style="padding-bottom:0px;">
+                <div class="container"> 
+                    <h3 style="letter-spacing:1px;">Your Well-being, Uniquely Yours <br>Personalize Spa Experience</h3>
+                    <p style="font-size: 20px;letter-spacing: 3px;"></p>
+                        <p style="font-family: 'Poppins', sans-serif;text-align:justify;">
+                            Flawless Glow From Beauty Salon, Step into Lime Spa where beauty meets relaxation,  enhance your natural glow with our beauty services;
+                       </p>
+
+                       <div style="margin-bottom: 35px;"> 
+                        <!-- <p style="font-size:18px;text-align:justify;">Our extensive menu of services has something to offer everyone:</p> -->
+                         <ul class="list" style="text-align: justify;">
+                             <li><i class="icon-number"></i> Create stunning hair transformations, from a chic haircut that suits your personality to a luxurious hair spa treatment that revitalizes your locks.
+                            For those seeking a glamorous look, our hair blow dry services will leave you with voluminous and salon-worthy hair.
+                            Hair straightening and curling services help you achieve the perfect style for any occasion. </li>
+
+                             <li><i class="icon-number2"></i> Say goodbye to dandruff with specialized treatments.</li>
+                             <li><i class="icon-number3"></i> Revitalize your skin as Clean up facials will deeply cleanse your skin, leaving a radiant complexion.
+                            Our eyebrow threading services offer precise and impeccable results, enhancing your facial features. </li>
+
+                             <li><i class="icon-number4"></i> Captivating Bridal Services: Our expert bridal makeup artists will make you feel your best on your special day.
+                            We also offer exquisite wedding bouquets to add an elegant touch to your celebration.</li>
+
+                            <li><i class="icon-number5"></i> Pamper Your Hands and Feet with our manicure and pedicure services for the ultimate self-care experience.</li>
+                            <li><i class="icon-number6"></i> Silky Smooth Skin : Our waxing services offer hassle-free and long-lasting solutions for silky smooth skin.</li>
+                         </ul> 
+                         
+                         <div class="row center-content"> 
+                            <div class="text-center">
+                                <p style="text-align:justify;">
+                                    Let's get you on a journey of beauty and relaxation!
+                                </p>
+        
+                            </div>
+                        </div>                         
+
+                     </div>
+                        <img src="images/Mask group.png" class="img-responsive" alt="spa" style="border-radius: 10px;">    
+                </div>
+                <ul class="list2" style="margin-top: 30px;padding: 10px;">
+                    <a href="#" style="font-size:16px;"><li style="opacity: 0.8"><!-- <i class="icon-check"></i>--> Hair Saloon</li></a>
+                    <a href="#" style="font-size:16px;"><li style="opacity: 0.8"> Facial Service</li></a>
+                    <a href="#" style="font-size:16px;"><li style="opacity: 0.8">&nbsp;&nbsp; Pedicure &nbsp;&nbsp;</li></a>
+                    <a href="#" style="font-size:16px;"><li style="opacity: 0.8">&nbsp;&nbsp; Waxing &nbsp;&nbsp;</li></a>
+                </ul>
+            </div>
+
+
+            <!--Western Spa -->
+            <div class="about-inline text-center" style="padding-bottom:100px;">
+                <div class="container">
+                    <center><img src="images/services/floral icon].svg" width="200px" style="margin-bottom: 50px;"></center>
+                    
+                    <center><img src="images/services/western spa.svg" width="55px"></center>
+
+                    <h3 style="letter-spacing:1px;"> WESTERN SPA<br>Get Pampered Luxuriously </h3>
+                        <p style="text-align:justify;">
+                            You'll be provided with an unforgettable pleasant experience, when you visit the best western spa in Thrissur.
+                            Looking for a cross massage to target deep-seated tension or a relaxation massage to unwind & de-stress?
+                            Our therapies deliver exceptional results. As we offer a Unisex spa service, you can enjoy the benefits of luxurious spa treatments, comfortably.
+                            Bound up with a tranquil and serene environment where you can escape the hustle-bustle of daily life.
+                        </p>
+                        <p style="text-align: left;">&blacktriangleright; We are always ready to pamper you with our signature spa treatments:
+                          Swedish & Balinese Massages, De-Aging SaltMousse Scrubs and Aromatic Moor Mud Wraps.</p>
+                        <p style="text-align: left;">&blacktriangleright; Nourish your skin as we offer a range of skincare solutions:</p>
+                        <p style="text-align:justify;">
+                            Whether you have oily skin, combination skin or any other skin type, we have the perfect products for you.
+                            Say goodbye to greasy skin with the best moisturizer. Our carefully curated selection of moisturizers is specially
+                            formulated to hydrate your skin without leaving a heavy residue. 
+                        </p>
+                        <p style="text-align:justify;">
+                         Looking for a cleanser that will effectively remove impurities without stripping your skin? Our face wash for oily skin will leave your face feeling fresh and revitalized.
+                        Trust us to provide you with the most effective skincare solutions, as we understand the unique needs of your skin.
+                        </p>
+                    
+                </div>
+            </div>
+
+            <div class="services-s5 row" style="padding-bottom:50px;">
+                <div class="col-md-3">
+                    <div align="center">
+                        <div class="containerover">
+
+                            <img src="images/Group lime3.png" alt="Avatar" class="image2">
+                                <div class="overlay1">
+                                <div class="textover"><a href="#">Hair Saloon</a></div>
+                                </div>
+                                
+                        </div> 
+                        <p><h4>Hair Saloon</h4></p>
+                      <!--  <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p> -->
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div align="center">
+                        <div class="containerover">
+
+                            <img src="images/Mask group1.png" alt="Avatar" class="image2">
+                                <div class="overlay1">
+                                <div class="textover"><a href="#">Facial Service</a></div>
+                                </div>
+                                
+                        </div> 
+                        <p><h4>Facial Service</h4></p>
+                      <!--  <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p> -->
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div align="center">
+                        <div class="containerover">
+
+                            <img src="images/Mask group-1.png" alt="Avatar" class="image2">
+                                <div class="overlay1">
+                                <div class="textover"><a href="#">Pedicure &<br> Manicure</a></div>
+                                </div>
+                                
+                        </div> 
+                        <p><h4>Pedicure & Manicure</h4></p>
+                      <!--  <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p> -->
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div align="center">
+                        <div class="containerover">
+
+                            <img src="images/lime-spa.jpg" alt="Avatar" class="image2">
+                                <div class="overlay1">
+                                <div class="textover"><a href="#">Waxing</a></div>
+                                </div>
+                                
+                        </div> 
+                        <p><h4>Waxing</h4></p>
+                      <!--  <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p> -->
+                    </div>
+                </div><br>
+
+            </div>        
+            
+        </div>
+        <center><img src="images/services/floral icon].svg" width="200px" style="transform: rotate(180deg);"></center>
+        <div style="padding: 4px;">
+            <img src="images/services/flore element 1.svg" width="90px" style="transform: scale(-1,-1);">
+            <img src="images/services/flore element 1.svg" width="90px" style="position: absolute;right:0;transform: scale(1,-1);">
+        </div>
+        
+    </section>
+     
+
+        <section class="parallax-content parallax1 text-center">
+            <div class="overlay" style="opacity: 0.5;"></div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>DISCOVER A WORLD OF CUSTOMIZED TRANQUILITY    </h3>
+                            <p style="text-align:center">ON YOUR WELLNESS JOURNEY</p> 
+                        <div align="center">
+                            <a class="btn btn-lg btn-primary" onclick="openForm()">REQUEST ASSISTANCE <i class="icon-arrow-right"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   <!-- <br><br> -->
+
+        <!-- TESTIMONIALS -->
+        <div id="reviews">
+            <div style="padding:5px;">
+                <img src="images/services/flore element 1.svg" width="80px" style="transform: scaleX(-1);">
+                <img src="images/services/flore element 1.svg" width="80px" style="position: absolute;right:0">
+            </div>
+
+            <div class="container">
+                <div class="about-inline text-center" style="padding-bottom: 20px;">
+                    <h3>- TESTIMONIALS -</h3>
+                    
+                </div>
+
+                <!-- TESTIMONIALS -->
+                <div class="testimonials-white">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="quote2">
+                                <div>
+                                    <i class="icon2-bubble"></i>
+                                    <p style="font-weight:bold">Ayurvedic Spa</p>
+                                    <p>"Visiting the Ayurvedic spa was a truly transformative experience. 
+                                        The therapists were incredibly knowledgeable about Ayurveda and customized the treatments according to my needs.
+                                        The calming ambience and soothing aromas instantly relaxed me and felt a sense of rejuvenation like never before. This spa treatment is highly recommended!"
+                                        .</p>
+                                    <span class="author"></span>
+                                </div>
+
+                                <div>
+                                    <i class="icon2-bubble"></i>
+                                    <p style="font-weight: bold;">Western Spa</p>
+                                    <p>"The Western spa at this place is a hidden gem! From the moment I entered, I was greeted with warm hospitality and a serene atmosphere.
+                                        The range of treatments offered is purely impressive and the therapists are trained professionals.
+                                        The relaxing music and luxurious surroundings added to the overall experience. I left feeling completely rejuvenated."
+                                    </p>
+                                    <span class="author"></span>
+                                </div>
+
+                                <div>
+                                    <i class="icon2-bubble"></i>
+                                    <p style="font-weight: bold;">Beauty Salon</p>
+                                    <p>"The stylists here are true artists and they always listen to our wants, while providing expert advice.
+                                        Whether it's a trendy haircut or a fabulous hair color transformation, they never fail to deliver.
+                                        I highly recommend this beauty salon to anyone looking for customized service and impeccable results."</p>
+                                    <span class="author"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <center><img src="images/services/Asset 3floral element 2.svg" width="55%"></center>
+                <div class="space100"></div>
+            </div>
+            <div align="left" style="padding: 4px;">
+                <img src="images/services/flore element 1.svg" width="60px" style="transform: scale(-1, -1);">
+                <img src="images/services/flore element 1.svg" width="60px" style="position: absolute;right:0;transform: scale(1, -1);">
+            </div>
+
+        </div>
+        <!-- TESTIMONIALS -->
+
+
+        <!-- PARALLAX -->
+      <!-- <section class="parallax-content parallax1 text-center" data-stellar-background-ratio="0.4">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4>Over 300+ peoples are daily visit our medical center.</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" class="btn btn-lg btn-primary pull-left">Learn More <i class="icon-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="parallax-content parallax1 text-center" style="background: url('images/services/spa2.jpg');background-size: cover;">
+            <div class="overlay" style="opacity: 0.5;"></div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="color:rgb(214 255 168);font-size:50px">Over 300+ people are daily<br>
+                            visiting our medical center</h1>
+                            
+                    </div>
+                    
+                </div>
+            
+            </div>
+        </section>
+
+        <!-- PARALLAX -->
+        <section class="text-center">
+
+
+            
+        </section>
+
+        <!-- GOOGLE MAP -->
+        <div class="google-map">
+            <div class="container-fluid no-padding">
+                <!-- <div id="map"></div> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1004138.6888399189!2d75.6438255!3d10.5465244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef47096d840d%3A0xcbba09bcd0618a1b!2sLime%20Spa%20Cochin%20Saloon%20%26%20Spa!5e0!3m2!1sen!2sin!4v1687239517161!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div id="contact-info" style="background-color: #000c00;">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="c-info">
+                            <h5><b>Call Us</b></h5>
+                            <p style="color:#FFEA00">+91 960 539 7777</p>
+                                                        
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="c-info">
+                            <h5><b>Email</b></h5>
+                            <p><a href="mailto:limespacochin@gmail.com" style="color:#FFEA00">limespacochin@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="c-info">
+                        <h5><b>Social</b></h5>
+                        
+                            
+                            <a href="https://www.facebook.com/people/Lime-Spa-Cochin/100054642840648/" style="color:#FFEA00;padding-right: 5px;" class="fa fa-facebook"></a>
+                            <a href="#" style="color:#FFEA00;padding: 5px;" class="fa fa-linkedin"></a>
+                            <a href="https://www.instagram.com/limespacochin/" style="color:#FFEA00;padding: 5px;" class="fa fa-instagram"></a>
+                        
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="c-info">
+                            <h5><b>Address</b></h5>
+                            <p style="color:#FFEA00"> Chembukavu, Museum road, Opposite Zoo, Thrissur - 680020</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+    <!--   <footer class="footer2" id="footer2">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 footerP">
+                        <h5>RELATED LINKS</h5><ul>
+                        <li>
+                            <a href="#">
+                                <p>About Us</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Why Buy With Us?</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Our Team</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Contact Us</p>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 footerP">
+                        <h5>OTHER LINKS</h5><ul>
+                        <li>
+                            <a href="#">
+                                <p>Register</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Forum</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Affiliate</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>FAQ</p>
+                            </a>
+                        </li></ul>
+                    </div>
+
+                    <div class="col-md-3 footerP">
+                        <h5>RELATED LINKS</h5><ul>
+                        <li>
+                            <a>
+                                <p>About Us</p>
+                            </a>
+                        </li>
+                       
+                        <li>
+                            <a href="#">
+                                <p>Contact Us</p>
+                            </a>
+                        </li></ul>
+                    </div>
+
+                    <div class="col-md-3 footerP">
+                        <h5>About Us</h5>
+                        <p>Mauris feugiat erat tellus.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <h5>Social</h5>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/people/Lime-Spa-Cochin/100054642840648/" class="fa fa-facebook"></a>
+                             <a href="#" class="fa fa-linkedin"></a>
+                            <a href="https://www.instagram.com/limespacochin/" class="fa fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> -->
+
+        <!-- COPYRIGHT -->
+        <div class="footer-copy" style="background-color: #000c00;">
+            <div class="container">
+                &copy; 2023. Limespa. All rights reserved.
+            </div>
+        </div>
+    
+     <!--  <button class="open-button" onclick="openForm()">Open Form</button>
+
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h1>Login</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div> -->
+
+       <!-- <div class="col-sm-5 col-md-7">
+            <div class="intro-form" id="join-us-form contact-form">
+                            <h4>Book Now !</h4>
+                            
+                            <div id="join-us-results"></div>
+                                     
+		    <div class="form-group">
+              <input type="text" name="first_name" id="first_name" class="form-control f-input input-field" placeholder="First Name" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="last_name" id="last_name" class="form-control f-input input-field" placeholder="Last Name" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="email" class="form-control f-input input-field" placeholder="Email" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" maxlength="15"  class="form-control f-input input-field" placeholder="Phone" />
+            </div>
+            <div class="form-group">
+              <input type="text" name="website" class="form-control f-input input-field" placeholder="website" />
+            </div>
+			<button type="submit" class="btn btn-block btn-lg btn-primary" id="submit_btn">Make an Appointment</button>
+
+            </div>
+					<div id="sendingMessage" class="statusMessage">
+						<p><i class="fa fa-spin fa-cog"></i> Sending your message. Please wait...</p>
+					</div>
+
+					<div id="successMessage" class="successmessage">
+						<p><span class="success-ico"></span> Thanks for sending your message! We'll get back to you shortly.</p>
+					</div>
+					<div id="failureMessage" class="errormessage">
+						<p><span class="error-ico"></span> There was a problem sending your message. Please try again.</p>
+					</div>
+					<div id="incompleteMessage" class="statusMessage">
+						<p><i class="fa fa-warning"></i> Please complete all the fields in the form before sending.</p>
+					</div>
+                            
+        </div> -->
+
+    <!-- JAVASCRIPT =============================-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendors/slick/slick.min.js"></script>
+    <script src="js/vendors/jquery.easing.min.js"></script>
+    <script src="js/vendors/stellar.js"></script>
+    <script src="js/vendors/isotope/isotope.pkgd.js"></script>
+    <script src="js/vendors/swipebox/js/jquery.swipebox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendors/mc/jquery.ketchup.all.min.js"></script>
+    <script src="js/vendors/mc/main.js"></script>
+    <script src="js/vendors/contact.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>-->
+    <script src="js/vendors/gmap.js"></script>
+
+    <script>
+
+function openForm() {
+  document.querySelector(".intro-form").style.display = "block";
+}
+
+function closeForm() {
+  document.querySelector(".intro-form").style.display = "none";
+}
+
+    </script>   
+
+<!-- <script>
+
+    openform();
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    
+</script>  -->
+
+</body>
+
+</html>
